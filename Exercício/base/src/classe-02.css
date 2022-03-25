@@ -1,0 +1,116 @@
+/*Exercício - 02*/
+
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #446392;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  height: 100vh;
+}
+
+.App {
+  display: flex;
+  gap: 10px;
+}
+
+.master-card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: #fff;
+
+  width: 300px;
+  padding-top: 23px;
+  padding-bottom: 30px;
+  border-radius: 20px;
+}
+
+.card img{
+  border: 9px solid #ecf3fc;
+  border-radius: 50%;
+
+  margin-bottom: 30px;
+}
+
+.card h2 {
+  font-family: 'Mulish', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+
+  color: #131e30;
+
+  margin-bottom: 8px;
+}
+
+.card .username {
+  font-family: 'Mulish', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+
+  color: #131e30;
+
+  margin-bottom: 70px;
+}
+
+.card .stats {
+  font-family: 'Mulish', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+}
+
+button {
+  all: unset;
+  box-sizing: border-box;
+
+  min-width: 302px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+
+  border-radius: 5px;
+  padding: 14px;
+
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 134.19%;
+
+  color: #FFFFFF;
+}
+
+.unfollow{
+  background: #459275;
+  box-shadow: 0px 4px 12px rgba(69, 146, 117, 0.5);
+}
+
+.following{
+  background: #97CEB9;
+  box-shadow: 0px 4px 12px rgba(151, 206, 185, 0.5);
+}

@@ -1,0 +1,101 @@
+/*Exercício - 01*/
+
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #E5E5E5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  height: 100vh;
+
+  flex-direction: column;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: #fff;
+  border-radius: 20px;
+
+  width: 430px;
+  height: 400px;
+  padding: 30px;
+}
+
+.closeBtn {
+  align-self: flex-end;
+  margin-bottom: 8px;
+
+  cursor: pointer;
+}
+
+.icon {
+  margin-bottom: 30px;
+}
+
+.card p {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+
+  margin-bottom: 40px;
+}
+
+.card button {
+  all: unset;
+  box-sizing: border-box;
+
+  min-width: 200px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+
+  border-radius: 5px;
+  padding: 14px;
+
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 134.19%;
+
+  color: #FFFFFF;
+}
+
+.card button.cookie{
+  background: #ED6755;
+  box-shadow: 0px 4px 12px rgb(237, 103, 85, 0.5);
+}
+
+.card button.alert{
+  background: #1C1B5E;
+  box-shadow: 0px 4px 12px rgba(28, 27, 94, 0.5);
+}
+
+.hide {
+  display: none;
+}
+
+.unhide {
+  display: flex;
+}

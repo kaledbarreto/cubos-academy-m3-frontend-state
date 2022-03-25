@@ -1,0 +1,110 @@
+/*Exercício - 03*/
+
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #EFF5FF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  height: 100vh;
+}
+
+.App {
+  display: flex;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: #fff;
+
+  width: 302px;
+  height: 428px;
+  padding: 0;
+  padding-bottom: 30px;
+  border-radius: 20px;
+}
+
+.card img{
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.card h2 {
+  font-family: 'Mulish', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  
+  color: #131E30;
+
+  margin-bottom: 8px;
+}
+
+.card .description {
+  font-family: 'Mulish', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+
+  width: 200px;
+  
+  color: #131E30;
+
+  margin-bottom: 40px;
+}
+
+.card .quantity {
+  display: flex;
+}
+
+.quantity .sub, .quantity .plus {
+  font-family: 'Mulish', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 45px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #EFF5FF;
+
+  background-color: #459275;
+  border-radius: 8px;
+  width: 38.54px;
+  height: 44px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+}
+
+.quantity .amount {
+  font-family: 'Mulish', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 45px;
+  text-align: center;
+
+  color: #131E30;
+
+  margin-left: 75px;
+  margin-right: 75px;
+}
